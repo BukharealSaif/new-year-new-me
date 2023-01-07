@@ -6,6 +6,7 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
+/* banner section styles */
 .intro {
   position: relative;
   text-align: right;
@@ -29,6 +30,59 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.6rem;
+}
+
+/* history styles */
+.history {
+  display: flex;
+  align-items: center;
+  margin: 15rem;
+}
+
+.history-list {
+  width: 50%;
+  padding-left: 15%;
+}
+
+.history-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.history-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* about section styles */
+.about {
+  padding: 9rem 10rem 0 10rem;
+  text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about .info-title {
+  font-size: 20px;
+  color: #757575;
+}
+
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
 }
 
 #contact-btn {
@@ -55,6 +109,7 @@ body {
   color: #F8F8F8;
 }
 
+/* footer section styles */
 footer {
   display: flex;
   background-color: #151414;
