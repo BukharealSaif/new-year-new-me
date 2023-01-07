@@ -1,0 +1,90 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+header {
+  display: block;
+  background-image: url('./images/banner/banner3.png');
+  background-size: cover;
+  width: 100%;
+  height: 50rem;
+  color: #F8F8F8;
+}
+
+.intro {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+#contact-btn {
+  width: 10rem;
+  height: 4rem;
+  border-radius: .4rem;
+  background-color: #FFFFFF;
+  color: #005FAC;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border: none;
+}
+
+#contact-card {
+  display: block;
+  background-image: linear-gradient(to right, rgba(0, 95, 172, 1), rgba(0, 95, 172, 0)), url('./images/watch.png');
+  background-size: cover;
+  width: 70%;
+  height: 20rem;
+  border-radius: .5rem;
+  margin: 10rem auto 10rem auto;
+  padding:5rem 5rem 0rem 5rem;
+  color: #F8F8F8;
+}
+
+footer {
+  display: flex;
+  background-color: #151414;
+  color: #F8F8F8;
+  padding: 5% 0%;
+}
+
+.contact {
+  width: 50%;
+  padding: 0 15%;
+}
+
+.subscription {
+  width: 50%;
+  padding: 0 15%
+}
+
+.contact img {
+  padding-right: 10px;
+  width: 3rem;
+}
+
+.subscription input {
+  width: 20rem;
+  height: 4rem;
+  border-radius: .5rem;
+  background-color: #151414;
+  color: #F8F8F8;
+  border: .1rem solid #F8F8F8; 
+  padding-left: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.subscription button {
+  width: 10rem;
+  height: 4rem;
+  border-radius: .5rem;
+  background-color: #F8F8F8;
+  color: #F15B22;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
