@@ -57,8 +57,32 @@ body {
 }
 
 /* about section styles */
+.portfolio {
+  background: #9addf4;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin: 10% 20% 0% 20%;
+}
+
+.portfolio-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolio .info-title {
+  font-size: 20px;
+  color: #757575;
+}
+
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* plans section styles */
 .about {
-  padding: 9rem 10rem 0 10rem;
+  padding: 0 10rem 0 10rem;
   text-align: center;
 }
 
